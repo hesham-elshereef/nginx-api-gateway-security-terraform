@@ -1,0 +1,21 @@
+# Terraform State
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfplan
+crash.log
+
+# Sensitive Variables
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Secrets and Credentials
+*.pem
+*.key
+.env
+.env.*
+
+# Lambda Archives
+*.zip
