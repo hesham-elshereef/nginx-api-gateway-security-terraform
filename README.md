@@ -8,6 +8,13 @@ This project demonstrates an HTTP request forwarding architecture in which **NGI
 
 The existing AWS infrastructure was originally configured manually and then imported into Terraform. The final recorded `terraform plan` reported **No changes** for the Terraform-managed configuration. This is an import project, not evidence that the API test cases have all passed.
 
+## Architecture Diagram
+
+The following diagram illustrates the complete request flow
+between NGINX, API Gateway, Lambda Authorizer, and Backend Lambda.
+
+![AWS API Gateway Security Architecture](docs/architecture.png)
+
 ## Architecture
 
 ```mermaid
